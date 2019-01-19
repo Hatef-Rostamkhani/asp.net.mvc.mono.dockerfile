@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnetapp", "aspnetapp\aspnetapp.csproj", "{383E2ED2-5B41-4703-B699-7407FE3E8B26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{FD28B954-AEDA-433E-9F6C-FFBD86BDF7D9}"
+	ProjectSection(SolutionItems) = preProject
+		RunDocker.NetCore.ps1 = RunDocker.NetCore.ps1
+		RunDocker.NetFramwork.ps1 = RunDocker.NetFramwork.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnetapp2", "aspnetapp2\aspnetapp2.csproj", "{598A20FF-C4EB-4E53-A1FB-BA182B1ED7D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383E2ED2-5B41-4703-B699-7407FE3E8B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383E2ED2-5B41-4703-B699-7407FE3E8B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383E2ED2-5B41-4703-B699-7407FE3E8B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383E2ED2-5B41-4703-B699-7407FE3E8B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598A20FF-C4EB-4E53-A1FB-BA182B1ED7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598A20FF-C4EB-4E53-A1FB-BA182B1ED7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598A20FF-C4EB-4E53-A1FB-BA182B1ED7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598A20FF-C4EB-4E53-A1FB-BA182B1ED7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBDE0FAA-FAFC-4EAF-AFD4-5ED8957043EF}
+	EndGlobalSection
+EndGlobal
